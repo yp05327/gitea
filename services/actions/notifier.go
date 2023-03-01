@@ -334,7 +334,7 @@ func (*actionsNotifier) NotifyMergePullRequest(ctx context.Context, doer *user_m
 	}
 
 	newNotifyInput(pr.Issue.Repo, doer, webhook_module.HookEventPullRequest).
-		WithRef(pr.MergedCommitID).
+		WithRef(pr.GetGitRefName()).
 		WithPayload(apiPullRequest).
 		WithPullRequest(pr).
 		Notify(ctx)
