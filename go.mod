@@ -88,6 +88,7 @@ require (
 	github.com/meilisearch/meilisearch-go v0.29.1-0.20241106140435-0bf60fad690a
 	github.com/mholt/archiver/v3 v3.5.1
 	github.com/microcosm-cc/bluemonday v1.0.27
+	github.com/microsoft/azure-devops-go-api/azuredevops/v7 v7.1.0
 	github.com/microsoft/go-mssqldb v1.7.2
 	github.com/minio/minio-go/v7 v7.0.80
 	github.com/msteinert/pam v1.2.0

@@ -29,6 +29,16 @@ func TestToGitServiceType(t *testing.T) {
 	}, {
 		typ: "gogs", enum: 5,
 	}, {
+		typ: "onedev", enum: 6,
+	}, {
+		typ: "gitbucket", enum: 7,
+	}, {
+		typ: "codebase", enum: 8,
+	}, {
+		typ: "codecommit", enum: 9,
+	}, {
+		typ: "azuredevops", enum: 10,
+	}, {
 		typ: "trash", enum: 1,
 	}}
 	for _, test := range tc {
